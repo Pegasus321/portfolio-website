@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>dev server</title>
+  </head>
+  <body>
+    <header class="header container">
+      <ul class="header__menu">
+        <li><a class="header__link" href="#about">About</a></li>
+        <li><a class="header__link" href="#featured">Work</a></li>
+        <li><a class="header__link" href="#contact">Contact</a></li>
+        <li class="header__line"></li>
+        <li>
+          <button class="header__sun">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li><a class="header__resume btn" href="#">Resume</a></li>
+      </ul>
+      <button class="header__bars">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </header>
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="/hero.jpg" alt="profile pic" />
+        <h2 class="hero__subtitle">Hey, I'm Ayush Agrawal</h2>
+        <h1 class="hero__title">
+          FRONT-END <br />
+          WEB DEVELOPER.
+        </h1>
+        <p class="hero__des">
+          A passionate <strong>Front-end / Fullstack web Developer</strong>
+        </p>
+        <a class="hero__btn btn" href="#">Contact Me</a>
+      </section>
+      <section class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__des">
+            Hello there! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Harum, quae?
+          </p>
+          <p class="about__des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            velit temporibus nemo natus nulla dicta.
+          </p>
+          <p class="about__des">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Cupiditate, repellat.
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">Javascript (ES6+)</li>
+              <li class="about__list">HTML</li>
+              <li class="about__list">CSS</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">ReactJS</li>
+              <li class="about__list">Python</li>
+              <li class="about__list">SQL</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapper">
+          <img class="about__img" src="/hero.jpg" alt="Profile Picture" />
+        </div>
+      </section>
+      <section class="featured container section">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">E-Commerce</h2>
+          <a class="featured__link" href=""
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="featured__des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsum
+          illum mollitia accusamus beatae sit quia fugit nobis eveniet.
+          Reiciendis, totam. Tenetur repellendus nulla doloremque nisi ex eaque
+          perspiciatis incidunt.
+        </p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Tech Stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">ReactJS</li>
+              <li class="featured__info">React Icons</li>
+              <li class="featured__info">axios</li>
+              <li class="featured__info">React Router</li>
+              <li class="featured__info">style</li>
+              <li class="featured__info">MirageJS</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured__info">Fullstack</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">September 2023-present</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img src="/img1.png" alt="" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/img2.png" alt="" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/img3.png" alt="" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/img4.png" alt="" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/img5.png" alt="" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/img6.png" alt="" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/img7.png" alt="" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/img8.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__des">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt ex
+          quod accusantium tenetur cum sapiente.
+        </p>
+
+        <!-- projects -->
+        <div class="projects">
+          <!-- project1 -->
+          <h3></h3>
+          <img src="" alt="" />
+          <p></p>
+          <p></p>
+          <a calss="btn" href="#"></a>
+        </div>
+      </section>
+      <!-- <section></section> -->
+    </main>
+    <!-- <footer></footer> -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
