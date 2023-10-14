@@ -27,6 +27,7 @@
 /* @media (min-width: 1536px) {
 } */
 
+/* THIS ALL ARE CALLED UTILITY CLASSES */
 .btn {
   display: inline-block;
   font-weight: 600;
@@ -51,12 +52,22 @@
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 /* section */
 .section {
   margin-top: 5rem;
+}
+
+/* loading blur */
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 1s ease-out;
 }
 
 /* extra small */
